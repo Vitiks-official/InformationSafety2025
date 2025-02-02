@@ -154,7 +154,7 @@ def per_process():
 
 def main_loop():
     while True:
-        time.sleep(10)
+        time.sleep(1)
         if mode == 1:
             total_network_usage()
         elif mode == 2:
