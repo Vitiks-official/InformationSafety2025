@@ -12,3 +12,19 @@ button_style = """
         color: #BB8888;
     }
 """
+
+list_style = """
+    QListWidget {
+        border-radius: 10px;
+        background-color: transparent;
+    }
+    QListWidget::item {
+        border-radius: 20px;
+        border: 4px solid white;
+        color: white;
+        padding: 10px;
+    }
+    QScrollBar {
+        width: 0px;
+    }
+"""
