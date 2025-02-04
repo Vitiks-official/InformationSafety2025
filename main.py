@@ -2,9 +2,6 @@ import sys
 import threading
 import time
 import psutil
-from pprint import pprint
-
-from pyexpat.errors import messages
 from screeninfo import get_monitors
 from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QListWidget, QAbstractItemView
 from PyQt6.QtGui import QIcon, QPixmap, QFont
